@@ -1,9 +1,9 @@
-import PropTypes from "prop-types";
-import { Section_Stat, Item, List } from "../Statistics/Statistics.styled";
+import PropTypes from 'prop-types';
+import { SectionStat, Item, List } from '../Statistics/Statistics.styled';
 
 export function Statistics({ data, title }) {
   return (
-    <Section_Stat>
+    <SectionStat>
       {title && <h2 className="title">{title}</h2>}
 
       <List>
@@ -16,7 +16,7 @@ export function Statistics({ data, title }) {
           );
         })}
       </List>
-    </Section_Stat>
+    </SectionStat>
   );
 }
 

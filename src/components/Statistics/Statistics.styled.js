@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Section_Stat = styled.section`
+export const SectionStat = styled.section`
   padding: 30px 0;
   margin: 0 auto;
 
